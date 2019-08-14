@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Patrycja Github CV</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  
+  <main>
+    <section class="hero">
+      <img src="assets/img/avatar.png" class="hero__image" alt="Patrycja" />
+
+      <h1 class="hero__title">Hey there! 👋 My name is Patrycja and I’m an aspiring Frontend developer and Senior
+        graphic web designer</h1>
+
+      <p class="hero__description">
+        You might be interested in checking the list of <a class="hero__link" href="#my-skills">my skills</a>. Don’t
+        forget to have a glimpse at <a class="hero__link" href="#my-projects">my projects</a>.
+        Currently I’m looking for a new challenges so if you have one - <a class="hero__link" href="#contact">contact
+          me</a> 😊
+      </p>
+
+      <a class="hero__mail" href="mailto:patrycja.petryk@gmail.com">patrycja.petryk@gmail.com</a>
+
+    </section>
+
+    <section id="my-skills" class="skills">
+
+      <h2 class="skills__title">My skills</h2>
+
+      <section class="skills-list">
+        <h3 class="skills-list__title">Working knowledge</h3>
+
+        <ul class="skills-list__list">
+          <li class="skills-list__item">Semantic HTML5</li>
+          <li class="skills-list__item">Flexbox
+          </li>
+          <li class="skills-list__item">Markdown</li>
+          <li class="skills-list__item">JS: Local storage</li>
+          <li class="skills-list__item">Figma</li>
+          <li class="skills-list__item">CSS grid</li>
+          <li class="skills-list__item">Forms</li>
+          <li class="skills-list__item">JS: DOM manipulations
+          </li>
+          <li class="skills-list__item">SASS</li>
+        </ul>
+
+      </section>
+
+      <section class="skills-list skills-list--violet">
+        <h3 class="skills-list__title">Know something about</h3>
+
+        <ul class="skills-list__list">
+          <li class="skills-list__item">JavaScript ES6+ features
+          </li>
+          <li class="skills-list__item">CSS animations
+          </li>
+          <li class="skills-list__item">Working with API
+          </li>
+          <li class="skills-list__item">NPM Scripts</li>
+          <li class="skills-list__item">Progressive web apps</li>
+          <li class="skills-list__item">Git
+          </li>
+          <li class="skills-list__item">Accessibility</li>
+        </ul>
+
+      </section>
+
+      <section class="skills-list skills-list--blue">
+        <h3 class="skills-list__title">Want to learn</h3>
+
+        <ul class="skills-list__list">
+          <li class="skills-list__item">React JS</li>
+          <li class="skills-list__item">Node.JS
+          </li>
+          <li class="skills-list__item">Electron</li>
+          <li class="skills-list__item">Server side rendering</li>
+          <li class="skills-list__item">Typescript</li>
+          <li class="skills-list__item">Gatsby</li>
+          <li class="skills-list__item">Websockets</li>
+        </ul>
+
+      </section>
+
+    </section>
+
+    <section id="my-projects" class="projects">
+
+      <h2 class="projects__title">Recent projects</h2>
+
+      <div class="container">
+        <p class="projects__description">I started my frontend developer path in 2018. Since then, I’ve built some
+          projects. Here’s the list of the things I’ve done so far.</p>
+        <ul class="projects-list projects-list--js">
+        </ul>
+      </div>
+
+    </section>
+
+    <footer class="contact" id="contact">
+
+      <h2 class="contact__title">Contact me</h2>
+
+      <div class="container">
+
+        <p class="contact__description">I’m open for new opportunities. If you have one for me we should talk!</p>
+
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__icon" src="assets/img/icon-fb.svg" alt="facebook"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__icon" src="assets/img/icon-github.svg" alt="github"></a>
+          </li>
+        </ul>
+
+        <a class="contact__mail" href="mailto:patrycja.petryk@gmail.com">patrycja.petryk@gmail.com</a>
+
+      </div>
+
+    </footer>
+
+  </main>
+
   <script src="js/main.js"></script>
 </body>
+
 </html>
