@@ -309,7 +309,7 @@ template {
   display: none; }
 
 .contact {
-  background: #171F3F;
+  background: #464543;
   color: #fff;
   padding-bottom: calc(8rem - 16px); }
   .contact__description {
@@ -319,12 +319,12 @@ template {
     max-width: 580px;
     margin: 0 0 1.5rem; }
   .contact__mail {
-    color: #0593FB;
+    color: #ae9473;
     font-weight: 500;
     font-size: 1.25rem;
     text-decoration: none;
     padding-bottom: 8px;
-    border-bottom: 2px solid #0593FB;
+    border-bottom: 2px solid #ae9473;
     display: inline-block;
     margin: 3rem 0 0 0; }
   .contact__title {
@@ -335,11 +335,11 @@ template {
     padding: 8rem 16px 0;
     max-width: 1216px; }
     .contact__title::before {
-      content: '';
+      content: "";
       width: 80px;
       height: 4px;
       display: block;
-      background: #0593FB;
+      background: #ae9473;
       border-radius: 8px;
       margin-bottom: 1.5rem; }
 
@@ -363,7 +363,7 @@ template {
     .hero {
       padding: 64px 16px 120px; } }
   .hero__description {
-    color: #52606D;
+    color: #52606d;
     font-style: normal;
     font-weight: 300;
     font-size: 1.25rem;
@@ -378,15 +378,16 @@ template {
         width: 80px;
         height: 80px; } }
   .hero__link {
-    color: #0593FB;
-    font-weight: 500; }
+    color: #ae9473;
+    font-weight: 500;
+    text-decoration: none; }
   .hero__mail {
-    color: #0593FB;
+    color: #ae9473;
     font-weight: 500;
     font-size: 1.25rem;
     text-decoration: none;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #0593FB; }
+    padding-bottom: 4px;
+    border-bottom: 2px solid #ae9473; }
   .hero__title {
     font-style: normal;
     font-weight: 600;
@@ -399,13 +400,13 @@ template {
         margin: 16px 0 8px; } }
 
 .projects {
-  background: #F5F7FA;
+  background: #f5f7fa;
   padding: 8rem 0; }
   .projects__description {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 2.25rem;
-    color: #52606D;
+    color: #52606d;
     max-width: 580px;
     margin: 0 0 4rem; }
   .projects__title {
@@ -434,8 +435,8 @@ template {
 
 .project {
   background: #fff;
-  -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-          box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+  -webkit-box-shadow: 0px 0px 16px rgba(24, 41, 67, 0.07);
+          box-shadow: 0px 0px 16px rgba(24, 41, 67, 0.07);
   border-radius: 8px;
   overflow: hidden;
   display: -webkit-box;
@@ -457,11 +458,11 @@ template {
     line-height: 2rem;
     margin: 0; }
   .project__footer {
-    background: #F5F7FA;
+    background: #f5f7fa;
     padding: 1rem 3rem;
     text-align: right; }
   .project__link {
-    color: #0593FB;
+    color: #ae9473;
     font-weight: 500;
     font-size: 1.125rem;
     text-decoration: none;
@@ -476,10 +477,10 @@ template {
       margin-left: 50px;
       position: relative; }
       .project__link + .project__link::after {
-        content: '';
+        content: "";
         height: 2rem;
         width: 2px;
-        background: #CBD2D9;
+        background: #cbd2d9;
         display: block;
         border-radius: 2px;
         position: absolute;
@@ -487,7 +488,7 @@ template {
         top: 2px;
         pointer-events: none; }
     .project__link::before {
-      content: '';
+      content: "";
       display: block;
       margin-right: 8px;
       width: 24px;
@@ -500,7 +501,7 @@ template {
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 2.25rem;
-    margin: 1rem 0 .5rem; }
+    margin: 1rem 0 0.5rem; }
 
 .skills {
   max-width: 1216px;
@@ -512,7 +513,7 @@ template {
     font-style: normal;
     font-weight: 600;
     padding: 1rem 0;
-    border-bottom: 2px solid #E5E8EC; }
+    border-bottom: 2px solid #e5e8ec; }
     @media (max-width: 767px) {
       .skills__title {
         text-align: center; } }
@@ -523,40 +524,21 @@ template {
   padding: 8rem 0 0;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -webkit-column-gap: .5rem;
-     -moz-column-gap: .5rem;
-          column-gap: .5rem; }
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem; }
   @media (max-width: 767px) {
     .skills-list {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
       padding: 5rem 0 0; } }
   .skills-list__item {
-    color: #52606D;
+    color: #52606d;
     padding: 11px 0 11px 30px;
     position: relative; }
     @media (max-width: 767px) {
       .skills-list__item {
         padding-left: 20px; } }
-    .skills-list__item::before {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      content: '';
-      display: block;
-      width: 18px;
-      height: 18px;
-      background: url("../assets/img/check-green.svg"); }
-      .skills-list--violet .skills-list__item::before {
-        background-image: url("../assets/img/check-violet.svg"); }
-      .skills-list--blue .skills-list__item::before {
-        background-image: url("../assets/img/check-blue.svg"); }
-      @media (max-width: 767px) {
-        .skills-list__item::before {
-          width: 12px;
-          height: 12px;
-          top: 11px;
-          background-size: contain; } }
   .skills-list__list {
     display: -ms-grid;
     display: grid;
@@ -573,17 +555,17 @@ template {
     line-height: 2.75rem;
     margin: 0; }
     .skills-list__title::before {
-      content: '';
+      content: "";
       width: 80px;
       height: 4px;
       display: block;
-      background: #06C847;
+      background: #adb591;
       border-radius: 8px;
       margin-bottom: 1.5rem; }
-      .skills-list--violet .skills-list__title::before {
-        background: #653CAD; }
-      .skills-list--blue .skills-list__title::before {
-        background: #2251CC; }
+      .skills-list--yellow .skills-list__title::before {
+        background: #bcac5e; }
+      .skills-list--happy-yellow .skills-list__title::before {
+        background: #dab56b; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -601,10 +583,10 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #171F3F;
+  color: #464543;
   background: #fff;
-  font-family: 'Poppins', sans-serif;
-  border: 16px solid #171F3F;
+  font-family: "Montserrat", sans-serif;
+  border: 16px solid #464543;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
   @media (max-width: 767px) {
