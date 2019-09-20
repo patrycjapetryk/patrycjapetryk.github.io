@@ -19,3 +19,7 @@ My personal website built during WTF course 🔥.
 `gulp`
 
 To publish your page using github pages use `npm run deploy`
+
+##
+
+Online version: https://patrycjapetryk.github.io
