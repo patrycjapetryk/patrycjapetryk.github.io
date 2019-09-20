@@ -1,44 +1,43 @@
 @import "_normalize";
 @import "_variables";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap&subset=latin-ext");
 
 @import "modules/contact.scss";
 @import "modules/hero.scss";
 @import "modules/projects.scss";
 @import "modules/skills.scss";
 
-
 html {
-  box-sizing: border-box;
-  font-size: 16px;
-  scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-size: 16px;
+	scroll-behavior: smooth;
 
-  @media (max-width: $mobile) {
-    font-size: 11px;
-  }
+	@media (max-width: $mobile) {
+		font-size: 11px;
+	}
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
-  color: $big-stone;
-  background: #fff;
-  font-family: 'Poppins', sans-serif;
-  border: 16px solid $big-stone;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	color: $big-stone;
+	background: #fff;
+	font-family: "Montserrat", sans-serif;
+	border: 16px solid $big-stone;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
-  @media (max-width: $mobile) {
-    border: none;
-  }
+	@media (max-width: $mobile) {
+		border: none;
+	}
 }
 
 .container {
-  max-width: 1216px;
-  padding: 0 16px;
-  margin: 0 auto;
+	max-width: 1216px;
+	padding: 0 16px;
+	margin: 0 auto;
 }
