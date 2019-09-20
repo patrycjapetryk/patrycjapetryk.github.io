@@ -1,4 +1,4 @@
-# Patrycja Petryk Personal Website
+# Patrycja Petryk Personal Github Website
 
 My personal website built during WTF course 🔥.
 
